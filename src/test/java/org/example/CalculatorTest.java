@@ -1,4 +1,4 @@
- package se327;
+package org.example;
 
        import org.junit.jupiter.api.Test;
 
@@ -27,3 +27,5 @@
  public void testDivide() {
        Calculator calculator = new Calculator();
        assertEquals(2.0, calculator.divide(4, 2), 0.01);
+    }
+}
